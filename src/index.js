@@ -6,7 +6,7 @@ import App from "./App";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
+    <Router basename="/react-recipes">
       <App />
     </Router>
   </React.StrictMode>,

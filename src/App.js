@@ -10,7 +10,7 @@ function App() {
     <>
       <Header />
       <main className="container content">
-        <Routes basename="/react-recipes">
+        <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/category/:name" element={<Category />} />
           <Route path="/meal/:id" element={<Recipe />} />
